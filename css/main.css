@@ -3,11 +3,17 @@ body {
     background-color: #fff;
 }
 
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
 .header {
     font-family: 'Open Sans', sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 29px 0 22px;
 }
 
 .header-logo {
@@ -16,6 +22,7 @@ body {
     width: 176px;
     height: 56px;
     background-repeat: no-repeat;
+    /* background-size: cover; */
 }
 
 .header-nav {
@@ -25,14 +32,8 @@ body {
     gap: 46px;
 }
 
-.container {
-    max-width: 1180px;
-    margin: 0 auto;
-    padding: 29px 15px 22px;
-}
-
 nav {
-    padding-right: 90px;
+    padding-right: 98px;
 }
 
 .header-nav a {
@@ -96,17 +97,17 @@ nav {
     color: #443737;
 }
 
-.maindescription {
+.main_description {
     background-image: url(../img/main-page-description-bg.jpg);
     color: white;
     text-align: center;
     max-width: 1920px;
     padding: 142px 0;
-    margin: 0 auto 114px;
+    margin: 0 auto 140px;
     background-position: center center;
 }
 
-.maindescription-breadcrumbs {
+.main_description-breadcrumbs {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -116,7 +117,7 @@ nav {
     gap: 4px;
 }
 
-.maindescription-breadcrumbs a {
+.main_description-breadcrumbs a {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 20px;
@@ -124,21 +125,21 @@ nav {
     text-decoration: none;
 }
 
-.maindescription-breadcrumbs a:hover {
+.main_description-breadcrumbs a:hover {
     color: #FFC725;
 }
 
-.maindescription-breadcrumbs a::after {
+.main_description-breadcrumbs a::after {
     content: ' /';
     color: #DEDEDE;
     pointer-events: none;
 }
 
-.maindescription-breadcrumbs li:last-child a::after {
+.main_description-breadcrumbs li:last-child a::after {
     display: none;
 }
 
-.maindescription-title {
+.main_description-title {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 700;
     font-size: 79px;
@@ -147,7 +148,7 @@ nav {
     margin-bottom: 21px;
 }
 
-.maindescription-description {
+.main_description-description {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 1.5;
@@ -219,3 +220,14 @@ header {
     text-decoration: none;
     color: #1E2F40;
 }
+
+
+/* .proba {
+    width: 900px;
+    height: 200px;
+    background-color: pink;
+    margin: 0 auto;
+    background-image: url(../img/Logo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
