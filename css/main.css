@@ -6,6 +6,7 @@ body {
 .container {
     max-width: 1180px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .header {
@@ -163,6 +164,7 @@ header {
 
 .banner-box {
     background-image: url(../img/banner.jpg);
+    background-position: center center;
     padding: 100px;
 }
 
