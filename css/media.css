@@ -1,0 +1,222 @@
+@media (min-width: 481px) {
+    .tel-one {
+        display: none;
+    }
+}
+
+@media (min-width: 1001px),
+(max-width: 480px) {
+    .tel-two {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .footer {
+        padding-top: 60px;
+    }
+    .tel-three {
+        display: none;
+    }
+    .container {
+        max-width: 768px;
+    }
+    .header-logo {
+        width: 150px;
+        height: 48px;
+        background-size: contain;
+    }
+    .header-nav {
+        gap: 22px;
+    }
+    .header-item {
+        flex-basis: 80%;
+    }
+    .main_description {
+        margin-bottom: 72px;
+    }
+    .banner-box {
+        background-position: -100px center;
+        padding: 100px 40px;
+    }
+    .add-menu {
+        overflow: hidden;
+        height: 575px;
+    }
+    .menu-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    .menu-grid-cover {
+        height: 320px;
+    }
+    .menu-grid-cover img {
+        height: 320px;
+    }
+    .menu-flex {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: scroll;
+    }
+    .menu-flex .menu-grid-item {
+        flex: 0 0 275px;
+    }
+    .menu-flex .menu-grid-cover {
+        height: 320px;
+    }
+    .footer-group {
+        flex-basis: 80%;
+    }
+    .footer-tel {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 736px) {
+    .header-logo {
+        /* width: 100px;
+        height: 32px; */
+        width: 25%;
+        background-position: center center;
+    }
+    .header-nav {
+        gap: 18px;
+    }
+    .header-nav a {
+        font-size: 16px;
+    }
+    .footer-title {
+        font-size: 12px;
+    }
+    .tel-two a {
+        font-size: 14px;
+    }
+    .footer-item span {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 568px) {
+    /* .header-logo {
+        width: 70px;
+        height: 22px;
+    } */
+    .header-nav {
+        gap: 16px;
+    }
+    .header-nav a {
+        font-size: 14px;
+    }
+    .banner-box {
+        background-position: -240px center;
+        padding-right: 180px;
+    }
+    .menu-grid-title {
+        font-size: 22px;
+    }
+    .footer-title {
+        font-size: 12px;
+    }
+    .tel-two a {
+        font-size: 14px;
+    }
+    .footer-item span {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 481px) {
+    .burger-btn {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu-modal a {
+        font-size: 20px;
+    }
+    .header-item .header-nav {
+        display: none;
+    }
+    .header-logo {
+        width: 116px;
+        height: 37px;
+        background-size: contain;
+    }
+    .main_description {
+        padding: 55px 0;
+        margin-bottom: 72px;
+    }
+    .main_description-breadcrumbs a {
+        font-size: 14px;
+    }
+    .main_description-title {
+        font-size: 38px;
+    }
+    .main_description-description {
+        font-size: 12px;
+    }
+    .banner-box {
+        padding: 35px 120px 35px 15px;
+        background-position: -180px center;
+        margin-bottom: 50px;
+    }
+    .menu-title,
+    .add-menu-title {
+        font-size: 27px;
+    }
+    .menu-select {
+        font-size: 12px;
+        padding: 13px 15px;
+        flex-basis: 200px;
+        background-position: 93% center;
+    }
+    .add-menu {
+        overflow: hidden;
+        height: 370px;
+    }
+    .menu-grid-cover {
+        height: 180px;
+    }
+    .menu-grid-cover img {
+        height: 180px;
+    }
+    .menu-flex .menu-grid-item {
+        flex: 0 0 140px;
+    }
+    .menu-flex .menu-grid-cover {
+        height: 180px;
+    }
+    /* .menu-grid-cover img {
+        height: 180px;
+    } */
+    .menu-grid-title {
+        margin: 7px 0 0;
+        font-size: 13px;
+    }
+    .menu-grid-price {
+        margin: 5px 0 0;
+        font-size: 16px;
+    }
+    .menu-grid-btn {
+        margin: 10px 0 10px;
+        width: 129px;
+        height: 38px;
+    }
+    .footer-box {
+        flex-direction: column;
+    }
+    .footer-logo-tel {
+        justify-content: space-between;
+    }
+    .footer-tel {
+        margin: 0;
+    }
+    .footer-group {
+        flex-direction: column;
+    }
+    .footer-title {
+        font-size: 18px;
+        margin-top: 40px;
+    }
+}

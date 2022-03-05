@@ -3,6 +3,16 @@ body {
     background-color: #fff;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
 .container {
     max-width: 1180px;
     margin: 0 auto;
@@ -22,10 +32,23 @@ body {
     align-items: center;
     justify-content: space-between;
     flex-basis: 68.5%;
+    padding: auto 0;
+}
+
+.burger-btn {
+    padding: 0;
+    min-width: 34px;
+    height: 22px;
+    border: none;
+    background-image: url(../img/Burger_menu.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: 20px;
 }
 
 .header-logo {
-    display: block;
     background-image: url(../img/Logo.svg);
     width: 176px;
     height: 56px;
@@ -46,7 +69,6 @@ body {
     font-size: 20px;
     line-height: 24px;
     color: #443737;
-    text-decoration: none;
     transition: 0.2s;
 }
 
@@ -109,6 +131,7 @@ body {
     max-width: 1920px;
     padding: 142px 0;
     margin: 0 auto 140px;
+    background-size: cover;
     background-position: center center;
 }
 
@@ -127,7 +150,6 @@ body {
     font-size: 15px;
     line-height: 20px;
     color: #DEDEDE;
-    text-decoration: none;
     transition: 0.3s;
 }
 
@@ -169,7 +191,9 @@ header {
 
 .banner-box {
     background-image: url(../img/banner.jpg);
-    background-position: center center;
+    background-position: 0 center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 100px;
     margin-bottom: 83px;
 }
@@ -225,7 +249,6 @@ header {
     line-height: 58px;
     text-align: center;
     text-transform: uppercase;
-    text-decoration: none;
     color: #1E2F40;
     transition: 0.2s;
 }
@@ -236,7 +259,7 @@ header {
 }
 
 .menu-header,
-.add_menu-header {
+.add-menu-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -245,7 +268,7 @@ header {
 }
 
 .menu-title,
-.add_menu-title {
+.add-menu-title {
     margin: 0;
     padding: 0;
     font-family: 'Nunito Sans', sans-serif;
@@ -253,6 +276,7 @@ header {
     font-size: 44px;
     text-transform: uppercase;
     color: #1B2A49;
+    margin-right: 20px;
 }
 
 .menu-select {
@@ -368,63 +392,22 @@ header {
     justify-content: space-between;
 }
 
+.footer-logo-tel {
+    display: flex;
+}
+
 .footer-logo {
     width: 63px;
     height: 56px;
 }
 
-.footer-group {
-    flex-basis: 57.5%;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 15px;
-}
-
-.footer-group-title {
-    margin: 2px 0 17px 0;
-    font-size: 20px;
-    font-weight: 800;
-    text-transform: uppercase;
-}
-
-.footer-group-item li {
-    margin-bottom: 9px;
-    font-family: 'Open sans', sans-serif;
-    font-size: 15px;
-    color: #DEDEDE;
-    font-weight: 400;
-    line-height: 24px;
-}
-
-.footer-group-item a {
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
-    color: #DEDEDE;
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-.footer-group-item a:hover {
-    color: #FBB731;
-}
-
-.footer-group-item span {
-    color: #FAF9F9;
-    display: block;
-    font-weight: 700;
-    margin: 3px 0 12px;
-}
-
-.footer-group-item ul,
 .footer-tel a {
     margin: 0;
     padding: 0;
-    list-style-type: none;
     color: #FBB731;
     font-weight: 800;
     font-size: 20px;
+    transition: 0.3s;
 }
 
 .footer-tel a:hover {
@@ -434,6 +417,52 @@ header {
 .footer-tel li {
     margin: 5px 0 12px;
 }
+
+.footer-group {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 57.5%;
+    margin-left: 15px;
+}
+
+.footer-title {
+    margin: 2px 0 17px 0;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.footer-item li {
+    margin-bottom: 9px;
+    font-family: 'Open sans', sans-serif;
+    font-size: 15px;
+    color: #DEDEDE;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footer-item a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #DEDEDE;
+    transition: 0.3s;
+}
+
+.footer-item a:hover {
+    color: #FBB731;
+}
+
+.footer-item span {
+    color: #FAF9F9;
+    display: block;
+    font-weight: 700;
+    margin: 3px 0 12px;
+}
+
+
+/* button up */
 
 .button-up {
     position: fixed;
@@ -448,7 +477,6 @@ header {
     line-height: 18px;
     text-transform: uppercase;
     color: #1E2F40;
-    text-decoration: none;
     justify-content: center;
     background: #FBB731;
     border-radius: 19px;
@@ -469,6 +497,42 @@ header {
 
 .button-up.visible {
     opacity: 1;
+}
+
+
+/* modal window */
+
+.menu-modal {
+    text-align: center;
+    max-width: 500px;
+    background-color: #FFF8DC;
+    position: absolute;
+    top: -400px;
+    left: 0;
+    right: 0;
+    margin: 20px auto;
+    padding: 40px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+.menu-modal .header-nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+}
+
+.modal-close-btn {
+    background-image: url(../img/modal-close.svg);
+    width: 22px;
+    height: 22px;
+    border: none;
+    background-color: transparent;
+    background-size: contain;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
 }
 
 
@@ -528,7 +592,6 @@ header {
     color: #1E2F40;
     background-color: #FBB731;
     border-radius: 5px;
-    text-decoration: none;
     padding: 20px 47px;
     display: inline-block;
     font-family: 'Nunito Sans', sans-serif;
