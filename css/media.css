@@ -173,7 +173,7 @@
     
     @media (max-width: 568px) {
         /* index */
-        .wrap {
+        .promo-wrap {
             flex-direction: column;
         }
         .promo-left .description,
@@ -243,14 +243,12 @@
         }
         .wrap-title {
             font-size: 58px;
-            /* line-height: 120%; */
         }
         .wrap-title span {
             font-size: 14px;
         }
         .wrap-content {
             font-size: 13px;
-            /* padding-right: 300px; */
         }
         .bg {
             display: none;
