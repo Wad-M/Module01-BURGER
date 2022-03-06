@@ -536,7 +536,7 @@ header {
 }
 
 
-/* style for index */
+/* index */
 
 .main {
     max-width: 1920px;
@@ -555,7 +555,7 @@ header {
 
 .wrap-text {
     color: #FAF9F9;
-    flex: 0 0 590px;
+    /* flex: 0 0 590px; */
     padding-top: 170px;
     padding-bottom: 170px;
 }
@@ -564,7 +564,7 @@ header {
     font-size: 120px;
     font-weight: 800;
     text-transform: uppercase;
-    line-height: 140px;
+    line-height: 120%;
     margin-bottom: 40px;
     margin-top: 0;
     margin-bottom: 0;
