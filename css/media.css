@@ -112,7 +112,7 @@
         }
         .add-menu {
             overflow: hidden;
-            height: 575px;
+            height: 690px;
         }
         .menu-grid {
             grid-template-columns: repeat(2, 1fr);
@@ -161,10 +161,10 @@
             font-size: 16px;
         }
         .footer-title {
-            font-size: 12px;
+            font-size: 2.7vw;
         }
         .tel-two a {
-            font-size: 14px;
+            font-size: 2.8vw;
         }
         .footer-item span {
             font-size: 14px;
@@ -207,12 +207,15 @@
         .menu-grid-cover img {
             height: 320px;
         }
-        .footer-title {
+        .add-menu {
+            height: 575px;
+        }
+        /* .footer-title {
             font-size: 12px;
         }
         .tel-two a {
             font-size: 14px;
-        }
+        } */
         .footer-item span {
             font-size: 14px;
         }
@@ -298,7 +301,6 @@
             background-position: 93% center;
         }
         .add-menu {
-            overflow: hidden;
             height: 370px;
         }
         .menu-grid-cover {

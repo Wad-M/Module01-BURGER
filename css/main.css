@@ -32,7 +32,6 @@ a {
     align-items: center;
     justify-content: space-between;
     flex-basis: 68.5%;
-    padding: auto 0;
 }
 
 .burger-btn {
@@ -600,6 +599,11 @@ header {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 700;
+    transition: 0.2s;
+}
+
+.wrap-link:hover {
+    background-color: #F37335;
 }
 
 .visual {
