@@ -541,6 +541,8 @@ header {
     max-width: 1920px;
     margin: 0 auto;
     background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
+    position: relative;
+    overflow: hidden;
 }
 
 .wrap {
@@ -554,9 +556,9 @@ header {
 
 .wrap-text {
     color: #FAF9F9;
-    /* flex: 0 0 590px; */
     padding-top: 170px;
     padding-bottom: 170px;
+    padding-left: 30px;
 }
 
 .wrap-title {
@@ -610,7 +612,7 @@ header {
     flex-grow: 1;
     display: flex;
     justify-content: flex-end;
-    position: relative;
+    /* position: relative; */
 }
 
 .bg {
