@@ -41,10 +41,11 @@
         }
         .wrap-text {
             color: #FAF9F9;
-            flex: 0 0 590px;
+            flex: 0 0 430px;
             padding-top: 170px;
             padding-bottom: 170px;
             padding-left: 30px;
+            padding-right: 50px;
         }
         .wrap-title {
             font-size: 86px;
@@ -261,6 +262,7 @@
             margin: 0 auto;
             padding-top: 170px;
             padding-bottom: 170px;
+            padding-right: 30px;
         }
         .wrap-title {
             font-size: 58px;
