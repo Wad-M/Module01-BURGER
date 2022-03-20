@@ -288,6 +288,7 @@ header {
     color: #443737;
     appearance: none;
     flex-basis: 279px;
+    background-color: #fff;
     background-image: url(../img/arrow.svg);
     background-repeat: no-repeat;
     background-position: 89% center;
@@ -313,8 +314,6 @@ header {
     top: 50%;
     transform: translate(-50%, -50%);
     object-fit: cover;
-    width: 100%;
-    height: 430px;
 }
 
 .menu-grid-item {
@@ -559,6 +558,7 @@ header {
     padding-top: 170px;
     padding-bottom: 170px;
     padding-left: 30px;
+    padding-right: 150px;
 }
 
 .wrap-title {
@@ -612,7 +612,7 @@ header {
     flex-grow: 1;
     display: flex;
     justify-content: flex-end;
-    /* position: relative; */
+    position: relative;
 }
 
 .bg {
@@ -624,7 +624,7 @@ header {
 .main img {
     width: 829px;
     position: absolute;
-    right: -168px;
+    right: -175px;
 }
 
 .promo {
